@@ -391,7 +391,7 @@ header .imagen{/*Le da caracteristicas a la frase del encabezado*/
     color: black;
     text-decoration: none;
     background-image: linear-gradient(rgba(136, 136, 138, 0.486), rgba(160, 157, 157, 0.356)), 
-    url(img1/Aim.webp);
+    url(img1/piel-grasa.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 50px;
@@ -409,37 +409,15 @@ header .imagen{/*Le da caracteristicas a la frase del encabezado*/
     box-shadow:  0 0 17px rgb(43, 43, 41); 
 }
 
-.a2 { /*Vista de la ventana 2*/
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    background-image:linear-gradient(rgba(136, 136, 138, 0.486), rgba(160, 157, 157, 0.356)), 
-    url(img1/depresion12.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 60%;
-    margin-left: 50px;
-    border-radius: 7px;
-    font-size: 250%;
-    font-family: "Lexend", sans-serif;
-    transition: box-shadow 0.3s ease;
-    font-weight: 350;
-
-} 
-.a2:hover{/*Opacea la ventana 2 cuando la flechita pasa por la ventana*/
-    opacity: 40%;
-    color: rgb(10, 9, 9);
-    box-shadow:  0 0 17px rgb(43, 43, 41);
-}
-
 .a3 {/*Vista de la ventana 3*/
     color: rgb(0, 0, 0);
     text-decoration: none;
     background-image:linear-gradient(rgba(171, 171, 173, 0.486), rgba(176, 173, 173, 0.356)), 
-    url(img1/image-2.webp);
+    url(img1/piel-mixta.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 60%;
-    margin-left: 50px;
+    margin-left: 10px;
     border-radius: 7px;
     font-size: 250%;
     font-family: "Lexend", sans-serif;
@@ -452,21 +430,16 @@ header .imagen{/*Le da caracteristicas a la frase del encabezado*/
     box-shadow:  0 0 17px rgb(43, 43, 41);
 }
 
-/*posiciona la ventana tdah a la izquierda*/
-#lista2{
-    display: flex;
-}
-
 /*Agregamos estilos a la ventada de TDAH*/
 .a4{
     color: rgb(0, 0, 0);
     text-decoration: none;
     background-image:linear-gradient(rgba(171, 171, 173, 0.486), rgba(176, 173, 173, 0.356)), 
-    url(img1/tdah.webp);
+    url(img1/piel-seca.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 60%;
-    margin-left: 100%;
+    margin-left: 5px;
     transform: translateY(60%);
     border-radius: 7px;
     font-size: 250%;
@@ -480,76 +453,6 @@ header .imagen{/*Le da caracteristicas a la frase del encabezado*/
     color: rgb(10, 8, 8);
     box-shadow:  0 0 17px rgb(43, 43, 41);
 }
-
-
-/*Parte de las menos conocidas con sub menu*/
-
-
-.menu2 {
-    position: relative;
-    display: inline-block;
-}
-
-/*Vista del boton de las menos conocidas*/ 
-.menu-btn {
-    color: black;
-    text-decoration: none;
-    background-image:linear-gradient(rgba(136, 136, 138, 0.486), rgba(160, 157, 157, 0.356)), 
-    url(img1/nubes1.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 90%;
-    margin-left: 50px;
-    border-radius: 7px;
-    font-size: 400%;
-    transform: translateY(-145%);
-    font-family: "Lexend", sans-serif;
-    border: none;
-    font-weight: 350;
-}
-
-.menu-btn:hover{
-    opacity: 40%;
-    color: #0a0808;
-    box-shadow:  0 0 17px rgb(43, 43, 41);
-    transition: box-shadow 0.3s ease;
-}
-
-/*Estilos para el submenu que se abrira*/
-.submenu {
-    color: black;
-    text-decoration: none;
-    background-color: #C8D9E6;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: translateY(-125%) translateX(608%);
-    border-radius: 7px;
-    font-size: 230%;
-    display: none;
-    position: absolute;
-
-}
-
-/*Para que aparezca el menu*/
-.menu2:hover .submenu {
-    display: block;
-}
-
-/*Propiedades para cada enlace de menos conocidas*/
-.vmenus{
-    font-family: "Lexend", sans-serif;
-    text-decoration: none;
-    color: #200f06;
-    display: block; 
-    transition: .3s linear ; /*Agrega una transicion suave para el fondo*/
-}
-
-.vmenus:hover{
-    background-color: #567C8D;
-    height: 50px;
-    color: #C8D9E6;
-}
-
 
 /*CONTENIDO*/
 

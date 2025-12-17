@@ -21,26 +21,6 @@
           <body id="cuerpo" >
 
 
-    <!-- ====== Ventana emergente modal ====== -->
-    <div id="miModal" class="modal">
-      <div class="modal-contenido">
-          <!-- Botón para cerrar la ventana emergente -->
-          <span id="cerrar" class="cerrar">&times;</span>
-          
-          <!-- Contenido dentro de la ventana emergente -->
-           <div style="display: flex;">
-           <!--Animacion para que se vea mas bonito-->
-                <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-                <dotlottie-player src="https://lottie.host/0af6d8cb-5083-434c-ac8c-daecf1abf304/qjU7MspHEO.lottie" background="transparent" speed="1" style="width: 3000px; height: 400px;" id="modalvideo" loop autoplay></dotlottie-player>
-              <!--Elementos de bienvenida-->
-                <div style="display: block;">
-                <h1 id="modalb">¡Bienvenidos!</h1>
-                <p id="modalpa">Este es un espacio es dedicado a ustedes, padres y madres, que buscan comprender y apoyar a sus hijos adolescentes</p>
-               </div>
-           </div>
-      </div>
-    </div>
-
             <!--Header para la barra-->
             <header id="encabezado"><!--hace que se muestre la barra arriba-->
 
@@ -50,42 +30,7 @@
                      <li id="amordepadres"><!--Agrega la imagen del icono en la barra-->
                        <img src="img1/icono2.png" id="icono">
                      </li> 
-
-                  
-                     <!--Agregamos el submenu en la barra para los distintos padecimientos-->
-                     <li style="position: fixed; z-index: 100; margin-left: 62%; margin-top: 1%;" >
-                        <a href="#" class="padecimientos" style="margin-top: -100px;">Padecimientos</a>
-                              <ul style="margin-left: -212%; margin-top: -5%;">
-                                    <li><a href="ansiedad.html">Ansiedad</a></li>
-                                    <li><a href="depresion.html">Depresión</a></li>
-                                    <li><a href="autolesion.html">Autolesión</a></li>
-                                    <li><a href="tdah.html">TDAH</a></li>
-                              </ul>
-                     </li>
-                      
-              
-                     <!--Agrega el apartada de contactos de ayuda moviendo este elemento para un buen acomodo-->
-                     <li style="transform: translateY(14%) translateX(371.5%);">
-                     <a href="contactos.html" id="ayuda">Ayuda</a>
-                     </li>
-
-                     <!-- Controles para aumentar y disminuir el tamaño de la fuente -->
-                    <div class="controls">
-                      <button id="increase-font" onclick="changeFontSize(1)">A+</button> <!-- Aumenta el tamaño de fuente -->
-                      <button id="decrease-font" onclick="changeFontSize(-1)">a-</button> <!-- Disminuye el tamaño de fuente -->
-                  </div>
-
-                     <!--Agregamos apartado para hablar con la IA-->
-                     <li>
-                      <a href="ia.html" id="mensajes">
-                      <span class="material-symbols-outlined" id="mensajes2">
-                      forum
-                      </span>
-                     </a></li>
-
-
-               </ul>
-    
+                     
             </header><!--Fin de la barra-->
 
             <!-- mini barra semi-transparente-->
@@ -136,32 +81,15 @@
                            
                            <br><!--Hace un salto de linea entre la indicacion y las ventanas-->
                           
-                           <li class="lista"><a href="ansiedad.html" class="a1" >Ansiedad</a></li>
-                           <li class="lista"><a href="depresion.html" class="a2">Depresión</a></li>
-                           <li class="lista"><a href="autolesion.html" class="a3">Autolesión</a></li>
+                           <li class="lista"><a href="grasa.html" class="a1" >Ansiedad</a></li>
+                           <li class="lista"><a href="mixta.html" class="a3">Autolesión</a></li>
+                           <li class="lista"><a href="seca.html" class="a4">TDAH</a></li>
                            <br><br>
-
-                           <div id="lista2">
-                           <li class="lista"><a href="tdah.html" class="a4">TDAH</a></li>
-                           </div>
-
                           
                               <br><!--Hace que tengamos mas espacio entre ventenas y contenido-->
                               <br>
+                              <br>
 
- 
-                          <!--Agregamos el apartado de las ventanas menos conocidas de bajo de las demás-->
-                           <div class="menu2">
-                               <button class="menu-btn"> Menos Conocidos</button>
-                               
-                               <div class="submenu">
-                             
-                               
-                                   <div class="item"> <a href="estres.html" class="vmenus">TOC</a></div>
-                                   <div class="item"> <a href="problemas fam.html" class="vmenus">SFC</a></div>
-
-                               </div>
-                           </div>
                           </ul><!--Fin de la lista para las ventanas-->
                         </nav><!--fin del apartado para navegar por las ventanas-->
 
